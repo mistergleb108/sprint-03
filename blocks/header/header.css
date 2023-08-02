@@ -1,0 +1,32 @@
+.header { 
+    max-width: 1184px; 
+    width: 92.5vw; 
+    justify-self: center; 
+    margin-top: 28px; 
+    display: grid; 
+    grid-auto-flow: column; 
+    justify-content: space-between; 
+    align-items: end; 
+    align-self: center; 
+  } 
+   
+  @media screen and (max-width: 1024px) { 
+  .header { 
+    width: 90.625vw; 
+    min-width: 720px; 
+  } 
+  } 
+   
+  @media screen and (max-width: 768px) { 
+  .header { 
+    width: 93.75vw; 
+    min-width: 288px; 
+  } 
+  } 
+   
+  @media screen and (max-width: 320px) { 
+  .header { 
+    width: 90vw; 
+    margin-top: 16px; 
+  } 
+}
