@@ -1,0 +1,32 @@
+.intro { 
+    display: grid; 
+    max-width: 984px; 
+    width: 76.85vw; 
+      margin-top: 92px; 
+    justify-self: center; 
+  } 
+   
+  @media screen and (max-width: 1024px) { 
+  .intro { 
+    width: 90.625vw; 
+    max-width: 928px; 
+    min-width: 720px; 
+   
+  } 
+  } 
+   
+  @media screen and (max-width: 768px) { 
+  .intro { 
+    width: 93.75vw; 
+    margin-top: 88px; 
+    min-width: 288px; 
+  } 
+  } 
+   
+  @media screen and (max-width: 720px) { 
+  .intro { 
+    width: 90vw; 
+    margin-top: 64px; 
+    min-width: 288px; 
+  } 
+  }
