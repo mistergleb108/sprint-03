@@ -1,0 +1,14 @@
+.cover {
+    width: 100%; 
+    max-width: 1184px; 
+    aspect-ratio: 8 / 5; 
+    justify-self: center; 
+    margin-top: 92px; 
+    position: relative; 
+  } 
+   
+  @media screen and (max-width: 767px) { 
+  .cover { 
+    margin-top: 66px; 
+  } 
+  } 

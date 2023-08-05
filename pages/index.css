@@ -31,3 +31,10 @@
 @import url(../blocks/places/place/__website/place__website.css);
 @import url(../blocks/places/place/__url-heading/place__url-heading.css);
 @import url(../blocks/places/place/__link/place__link.css);
+@import url(../blocks/places/place/place.css);
+
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__background/cover__background.css);
+@import url(../blocks/cover/__overlay/cover__overlay.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
+@import url(../blocks/cover/__title/cover__title.css);
