@@ -18,3 +18,8 @@
     margin-bottom: 32px; 
   } 
   } 
+
+  .footer__link:hover{
+    opacity:.7;
+    transition: opacity .5s; 
+  }

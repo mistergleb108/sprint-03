@@ -1,18 +1,17 @@
 .lead__image {
-width: 76.875%; 
+/* width: 76.875%;  */
 max-width: 984px; 
-min-width: 928px; 
-margin-top: 64px; 
-margin-bottom: 0; 
+min-width: 928px;  
 justify-self: center;
-margin: 0 auto 0;
+aspect-ratio: 16 10;
+ margin: 56px auto 0; 
 }
  
 @media screen and (max-width: 1024px) { 
 .lead__image { 
-  width: 90.625vw; 
-  min-width: 768px; 
-  margin-top: 56px; 
+  min-width: 2px;
+  max-width: 928px; 
+  width: 90.625vw;  
 } 
 } 
  
@@ -20,12 +19,13 @@ margin: 0 auto 0;
 .lead__image { 
   min-width: 288px; 
   width: 100%; 
-  margin-top: 56px;
+  margin: 56px 0 0 0;
 } 
 } 
  
 @media screen and (max-width: 320px) { 
 .lead__image { 
-  margin-top: 40px; 
+  margin: 40px 0 0;
+  width: 100%; 
 } 
 } 
